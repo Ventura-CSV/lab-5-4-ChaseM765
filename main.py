@@ -2,15 +2,9 @@ import random
 
 
 def minmax(numbers):
-    """
-    ########################################
-    Code Your Program here
-    ########################################
-    """
-
-    ########################################
-    # Do not delete the return statement
-    ########################################
+    minval = min(numbers)
+    maxval = max(numbers)
+    
     return minval, maxval
 
 
